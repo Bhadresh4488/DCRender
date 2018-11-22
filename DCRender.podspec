@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCRender'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'DCRender for Custom Designable class for live rendering object.'
 
   s.description      = <<-DESC

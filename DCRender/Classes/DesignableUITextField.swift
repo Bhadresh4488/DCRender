@@ -64,7 +64,7 @@ open class DesignableUITextField: UITextField {
             rightView = nil
         }
         
-        attributedPlaceholder = NSAttributedString(string: placeholder != nil ?  placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: colorRightView])
+//        attributedPlaceholder = NSAttributedString(string: placeholder != nil ?  placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: colorRightView])
     }
     
     func updateLeftView() {
@@ -80,7 +80,7 @@ open class DesignableUITextField: UITextField {
             leftView = nil
         }
         
-        attributedPlaceholder = NSAttributedString(string: placeholder != nil ?  placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: colorLeftView])
+//        attributedPlaceholder = NSAttributedString(string: placeholder != nil ?  placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: colorLeftView])
     }
     
 //    @IBInspectable var placeholderColor : UIColor? {
