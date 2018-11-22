@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'DCRender for Custom Designable class for live rendering object.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DCRender for Custom Designable class for live rendering object. Buid your application this class with less time and resuseable code.
                        DESC
 
   s.homepage         = 'https://github.com/bhadresh4488/DCRender'
