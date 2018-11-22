@@ -18,7 +18,7 @@ DCRender for Custom Designable class for live rendering object. Buid your applic
   s.homepage         = 'https://github.com/bhadresh4488/DCRender'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'bhadresh4488' => 'tushar.mistri@nexuslinkservices.in' }
+  s.author           = { 'bhadresh' => '' }
   s.source           = { :git => 'https://github.com/bhadresh4488/DCRender.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
