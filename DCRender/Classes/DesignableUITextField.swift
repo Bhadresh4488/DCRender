@@ -83,13 +83,13 @@ open class DesignableUITextField: UITextField {
         attributedPlaceholder = NSAttributedString(string: placeholder != nil ?  placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: colorLeftView])
     }
     
-    @IBInspectable var placeholderColor : UIColor? {
-        didSet {
-            let rawString = attributedPlaceholder?.string != nil ? attributedPlaceholder!.string : ""
-            let str = NSAttributedString(string: rawString, attributes: [NSAttributedString.Key.foregroundColor : placeholderColor!])
-            attributedPlaceholder = str
-        }
-    }
+//    @IBInspectable var placeholderColor : UIColor? {
+//        didSet {
+//            let rawString = attributedPlaceholder?.string != nil ? attributedPlaceholder!.string : ""
+//            let str = NSAttributedString(string: rawString, attributes: [NSAttributedString.Key.foregroundColor : placeholderColor!])
+//            attributedPlaceholder = str
+//        }
+//    }
     
     @IBInspectable var cornerRadius : CGFloat = 0{
         didSet{
@@ -129,7 +129,7 @@ open class DesignableUITextField: UITextField {
             updateUI()
         }
     }
-
+    
     var format:String = ""
     
     private func updateUI()

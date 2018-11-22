@@ -14,8 +14,8 @@
 		5751399121A6B35700213B8E /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751398921A6B35700213B8E /* DesignableUIButton.swift */; };
 		5751399221A6B35700213B8E /* DesignableConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751398A21A6B35700213B8E /* DesignableConstraints.swift */; };
 		5751399321A6B35700213B8E /* DesignableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751398B21A6B35700213B8E /* DesignableUIView.swift */; };
-		5751399421A6B35700213B8E /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751398C21A6B35700213B8E /* DesignableUITextField.swift */; };
 		5751399521A6B35700213B8E /* DesignableUIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751398D21A6B35700213B8E /* DesignableUIControl.swift */; };
+		57D885AB21A6BD4F00B8D9E6 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D885AA21A6BD4F00B8D9E6 /* DesignableUITextField.swift */; };
 		5EB4C2F29624075A3B9664B633637080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		76BA53EF4FD206093997070B1A52CFE6 /* Pods-DCRender_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5F6D319BBA11F60B859DDC7C978541 /* Pods-DCRender_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		866B40D6C09C2DBE56CBB6AB4F4EC101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -47,8 +47,8 @@
 		5751398921A6B35700213B8E /* DesignableUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIButton.swift; sourceTree = "<group>"; };
 		5751398A21A6B35700213B8E /* DesignableConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableConstraints.swift; sourceTree = "<group>"; };
 		5751398B21A6B35700213B8E /* DesignableUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIView.swift; sourceTree = "<group>"; };
-		5751398C21A6B35700213B8E /* DesignableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
 		5751398D21A6B35700213B8E /* DesignableUIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUIControl.swift; sourceTree = "<group>"; };
+		57D885AA21A6BD4F00B8D9E6 /* DesignableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		638F2F1C1EA7F27F56DB478064273871 /* Pods-DCRender_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCRender_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6B97FED5A7063E8B5D4B7DBF4EEB91CE /* Pods-DCRender_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCRender_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -118,10 +118,10 @@
 			children = (
 				5751398621A6B35600213B8E /* CustomButton.swift */,
 				5751398A21A6B35700213B8E /* DesignableConstraints.swift */,
+				57D885AA21A6BD4F00B8D9E6 /* DesignableUITextField.swift */,
 				5751398921A6B35700213B8E /* DesignableUIButton.swift */,
 				5751398D21A6B35700213B8E /* DesignableUIControl.swift */,
 				5751398821A6B35700213B8E /* DesignableUILabel.swift */,
-				5751398C21A6B35700213B8E /* DesignableUITextField.swift */,
 				5751398721A6B35700213B8E /* DesignableUITextView.swift */,
 				5751398B21A6B35700213B8E /* DesignableUIView.swift */,
 			);
@@ -338,11 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D885AB21A6BD4F00B8D9E6 /* DesignableUITextField.swift in Sources */,
 				5751398E21A6B35700213B8E /* CustomButton.swift in Sources */,
 				FBD3DC5A8BFCE28E348802E0D83D0F8E /* DCRender-dummy.m in Sources */,
 				5751399121A6B35700213B8E /* DesignableUIButton.swift in Sources */,
 				5751399521A6B35700213B8E /* DesignableUIControl.swift in Sources */,
-				5751399421A6B35700213B8E /* DesignableUITextField.swift in Sources */,
 				5751399021A6B35700213B8E /* DesignableUILabel.swift in Sources */,
 				5751399221A6B35700213B8E /* DesignableConstraints.swift in Sources */,
 				5751399321A6B35700213B8E /* DesignableUIView.swift in Sources */,
