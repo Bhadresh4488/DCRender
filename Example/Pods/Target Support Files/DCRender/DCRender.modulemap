@@ -1,0 +1,6 @@
+framework module DCRender {
+  umbrella header "DCRender-umbrella.h"
+
+  export *
+  module * { export * }
+}

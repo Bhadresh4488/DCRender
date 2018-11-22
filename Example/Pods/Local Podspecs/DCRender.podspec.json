@@ -1,0 +1,22 @@
+{
+  "name": "DCRender",
+  "version": "0.1.0",
+  "summary": "DCRender for Custom Designable class for live rendering object.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bhadresh4488/DCRender",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bhadresh4488": "tushar.mistri@nexuslinkservices.in"
+  },
+  "source": {
+    "git": "https://github.com/bhadresh4488/DCRender.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DCRender/Classes/**/*"
+}

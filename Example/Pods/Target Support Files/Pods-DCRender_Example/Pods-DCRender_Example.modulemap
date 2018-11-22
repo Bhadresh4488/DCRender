@@ -1,0 +1,6 @@
+framework module Pods_DCRender_Example {
+  umbrella header "Pods-DCRender_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

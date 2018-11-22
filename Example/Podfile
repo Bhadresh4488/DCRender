@@ -3,9 +3,4 @@ use_frameworks!
 target 'DCRender_Example' do
   pod 'DCRender', :path => '../'
 
-  target 'DCRender_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

@@ -1,5 +1,5 @@
 import XCTest
-import DCRender
+//import DCRender
 
 class Tests: XCTestCase {
     

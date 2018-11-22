@@ -1,0 +1,16 @@
+PODS:
+  - DCRender (0.1.0)
+
+DEPENDENCIES:
+  - DCRender (from `../`)
+
+EXTERNAL SOURCES:
+  DCRender:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCRender: 694256068790210b88d1c0f3507789ba155b4593
+
+PODFILE CHECKSUM: a3f631a2b3e98e926fd8be82518ee517bb69a94b
+
+COCOAPODS: 1.5.3
